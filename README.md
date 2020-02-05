@@ -20,8 +20,10 @@ MovieFlix is an app that allows users to browse movies from the [The Movie Datab
 
 ### App Walkthough GIF
 <img src="http://g.recordit.co/wVe6DT4BNq.gif" width=250><br>
+### Auto Layout GIF 
+<img src="http://g.recordit.co/Sls7baFbco.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
 This was not that of a challange as the tip calculator because, now I am more fimiliar with swift.
-Some challanges were auto layouts it was hard understanding the concept, and I had to play around with it a little, to make it to work.
+Some challanges were auto layouts it was hard understanding the concept, and I had to play around with it a little, to make it to work. 

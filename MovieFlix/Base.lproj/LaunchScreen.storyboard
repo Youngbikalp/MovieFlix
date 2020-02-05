@@ -18,7 +18,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="jlv-r5-E4J">
                                 <rect key="frame" x="138" y="387" width="138" height="139"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ru-T6-Mr8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ru-T6-Mr8">
                                 <rect key="frame" x="126" y="534" width="162" height="40"/>
                                 <attributedString key="attributedText">
                                     <fragment content="MovieFlix">

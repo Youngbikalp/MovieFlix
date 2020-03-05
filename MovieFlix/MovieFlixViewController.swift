@@ -19,6 +19,7 @@ class MovieFlixViewController: UIViewController, UITableViewDataSource,UITableVi
         
         let movie = movies[indexPath.row] //get the movies by row
         let titleOfMovie = movie["title"] as! String //get title of movie
+        
         let description = movie["overview"] as! String
         cell.movieTitleLable.text = titleOfMovie
         cell.movieDescriptionLable.text = description
@@ -66,14 +67,28 @@ class MovieFlixViewController: UIViewController, UITableViewDataSource,UITableVi
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        print ("Loading up the deatils screen")
+        
+        //Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        //Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        
+        detailsViewController.movie = movie
+        //to not highlight after selecting and coming back to the select
+        tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
+    
 
 }

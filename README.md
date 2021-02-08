@@ -16,7 +16,7 @@ MovieFlix is an app that allows users to browse movies from the [The Movie Datab
 
 #### BONUS
 - [x] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
 <img src="http://g.recordit.co/wVe6DT4BNq.gif" width=250><br>
